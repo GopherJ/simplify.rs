@@ -1,6 +1,6 @@
 use std::collections::HashSet;
 
-pub trait Point: Clone + Eq {
+pub trait Point {
     fn x(&self) -> f64;
     fn y(&self) -> f64;
 }
