@@ -1,6 +1,6 @@
 [package]
 name = "simplify"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Cheng JIANG <cheng.jiang@outlook.fr>"]
 edition = "2018"
 description = "simplify-js port to rust"
