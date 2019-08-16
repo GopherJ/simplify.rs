@@ -3,6 +3,8 @@ name = "simplify"
 version = "0.1.0"
 authors = ["Cheng JIANG <cheng.jiang@outlook.fr>"]
 edition = "2018"
+description = "simplify-js port to rust"
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
