@@ -9,3 +9,13 @@ license = "MIT"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+[dev-dependencies]
+criterion= "0.2.5"
+
+[[bench]]
+name = "bench_main"
+harness = false
+
+[lib]
+bench = false
