@@ -16,16 +16,8 @@ use simplify::{Point as P, Simplify};
 #[derive(Clone, Debug)]
 pub struct Point {
     pub x: f64,
-        pub y: f64
+    pub y: f64
 }
-
-impl PartialEq for Point {
-    fn eq(&self, other: &Self) -> bool {
-        self.x == other.x && self.y == other.y
-    }  
-}
-
-impl Eq for Point {}
 
 impl P for Point {
     fn x(&self) -> f64 {
@@ -49,7 +41,6 @@ let mut data = vec![
 
 let mut s = Simplify::new(&mut data);
 s.set_tolerance(5f64);
-s.run();
 
-println!("{:?}", data);
+println!("{:?}", s.run());
 ```
