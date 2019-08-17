@@ -4,6 +4,6 @@ extern crate criterion;
 
 mod benchmarks;
 
-criterion_main!{
-   benchmarks::simplify::benches, 
+criterion_main! {
+   benchmarks::simplify::benches,
 }
